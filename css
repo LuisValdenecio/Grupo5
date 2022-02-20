@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #111111;
+    width: 100%;
+
+}
+.container h1
+{
+    color: aquamarine;
+    height: 350px;
+    position: fixed;
+}
+.container{
+    display: inline-flex;
+}
+footer
+{
+    width: 100%;
+    min-height: 290px;
+    background-color: #444;
+    display: flex;
+    position:fixed;
+}
+footer .boxs 
+{
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+    
+}
+footer .boxs:nth-child(4)
+{
+    width: 400px;
+}
+.boxs h2 
+{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.boxs ul il
+{
+    margin: 10px 0px;
+    list-style: none;
+
+}
+.boxs ul li a
+{
+    color: #ddd;
+    text-decoration: none;
+
+}
+li
+{
+    list-style-type: none;
+}
+.boxs ul li a:hover
+{
+    color: #fff;
+}
+.boxs p
+{
+    color: #fff;
+    text-align: justify;
+
+}
+.footer h2 
+{
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    width: 30px;
+}
+.footer .sociais
+{
+    display: flex;
+    width: 100%;
+    position:relative;
+    bottom: 0;
+    right: 0;
+    background: rgb(45,45,47);
+    height: 90px;
+    display: flex;
+    
+    
+
+}
+.sociais .social    
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #ddd;
+    margin: 10px;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: background .3s linear; 
+    
+}
+.sociais .social a
+{
+    color: #000;
+    font-size: 1.5em;
+    transition: color .3s linear;
+}
+.sociais .social:hover a
+{
+    color: #fff;
+}
+html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: rgb(45,45,47);
+    height: 40px;
+    display: flex;
+   }
+   
+   #footercontainer {
+       width: 1000px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 950px)
+{
+    footer {
+        
+        flex-direction: column;
+    }
+    footer .boxs
+    {
+        width: 100%;
+        text-align: center;
+    }
+    footer .boxs:nth-child(4)
+    {
+        width: 100%;
+    }
+   
+ }
